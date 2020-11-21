@@ -1,0 +1,56 @@
+.navbar {
+   margin-bottom: 50px;
+   border-radius: 0;
+}
+
+.jumbotron {
+   margin-bottom: 0;
+}
+
+footer {
+   background-color: #f2f2f2;
+   padding: 25px;
+}
+
+.menu {
+   height: 50px;
+}
+
+.menu li:hover .submenu {
+   display: block;
+}
+
+.submenu {
+   display: none;
+   clear: both;
+   width: 200px;
+   z-index: 999999;
+   background-color: #101010;
+}
+
+.submenu li {
+   list-style: none;
+}
+
+.submenu li a {
+   text-decoration: none;
+   color: #9d9d9d;
+   display: block;
+   border-top: 1px solid #ccc;
+   line-height: 40px;
+}
+
+.pathway {
+   font-size: 20px;
+}
+
+.fa1 {
+   text-align: center;
+   font-weight: bold;
+   font-size: 17px;
+}
+
+#procontent {
+   font-size: 17px;
+   color: #981619;
+}
